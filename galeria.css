@@ -1,0 +1,55 @@
+header h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+    color: blueviolet;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+#galeria{
+    padding-bottom: 8px;
+    border-bottom: 5px solid pink;
+}
+#caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#caja1 img{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    box-shadow: 10px 5px 3px grey;
+}
+#img1{filter: sepia(90%);}
+#img2{filter: grayscale(100%);}
+#img3{filter: contrast(50%);}
+#img4{transform: rotate(10deg);}
+#img5{transform: scale(0.5, 0.8);}
+#img6{filter: hue-rotate(90deg);}
+
+.letra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#redes2{
+    display: flex;
+    justify-content: center;
+}
+#redes2 a i{
+    color: black;
+    font-size: 40px;
+    margin: 10px;   
+}

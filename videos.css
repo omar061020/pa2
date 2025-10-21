@@ -1,0 +1,62 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(108, 26, 133);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+#videos1{
+    padding-bottom: 8px;
+    border-bottom: 5px solid pink;
+}
+#art1{
+    text-align: center;
+    font-size: 24px;
+}
+#p1{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+#video1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#vid{
+    box-shadow: 10px 5px 3px grey;
+}
+#video2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#vid2{
+    box-shadow: 15px 10px 3px  grey;
+}
+.p2{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    max-width: 50%;
+}
+#redes3{
+    display: flex;
+    justify-content: center;
+}
+#redes3 a i{
+    color: black;
+    font-size: 40px;
+    margin: 10px;   
+}
